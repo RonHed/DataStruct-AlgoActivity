@@ -1,1 +1,1 @@
-# DataStruct-AlgoActivity
+# DataStructureWeeklyActivities
