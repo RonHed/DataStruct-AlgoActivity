@@ -21,9 +21,16 @@ namespace Week3
         }
         return countVowels;
         }
-        public static int CountEvenNumbers(int[] numberArray)
+        public static int CountEvenNumbers(int[] numberArray, int[] numberArraySize)
         {
-            return 0;
+            int countEven = 0;
+ 
+            for (int i = 0; i < numberArraySize.Length; i++) {
+                if ((numberArray[i] % 2) == 0)
+                countEven++;
+            }
+ 
+            return countEven;
         }
         public static int ReverseArrayOrder(int[] numberArray) 
         {
