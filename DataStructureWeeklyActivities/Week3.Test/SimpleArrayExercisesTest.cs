@@ -7,12 +7,14 @@ namespace Week3.Test
     public class SimpleArrayExercisesTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CountVowels()
         {
             CountVowels CountVowels = new CountVowels();
-            string expectedResult = 18;
-            string text = new string
+            int expectedResult = 18;
             
+            int actualResult = SimpleArrayExercises.CountVowels(text);
+
+            Assert.AreEqual(expectedResult, actualResult);
 
         }
     }
